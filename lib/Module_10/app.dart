@@ -1,5 +1,7 @@
 
 import 'package:apps/Module_10/assignment.dart';
+import 'package:apps/Module_10/widget/exam.dart';
+import 'package:apps/Module_10/widget/ownWidget.dart';
 import 'package:apps/module8/list_view.dart';
 import 'package:apps/module8/module_8_class2.dart';
 import 'package:apps/module9/class_1.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 11 flutter',
-      home:Assignment()
+      home:Exam()
 
     );
   }
